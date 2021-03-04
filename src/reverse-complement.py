@@ -6,7 +6,7 @@ VERSION
     1.0
     
 AUTHOR
-	
+	Sicilia Andrade Pablo
     
 DESCRIPTION
 	Make the reverse complement of DNA sequence
