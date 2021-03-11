@@ -17,4 +17,16 @@ __PEP8 para Python__
 | Mayor  | cambios importante |
 | menor  |  cambios menores   |
 
-git init inicia un repositorio 
+__git init__  inicia un repositorio 
+
+__git log__ lista de commits 
+
+​	__-n__ últimos n comits
+
+​	 __--oneline__ menos info
+
+__git add__
+
+__git commit__
+
+__git checkout__ regresa a la versión correspondiente al head o al header que agregamos 
