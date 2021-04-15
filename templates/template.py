@@ -33,5 +33,7 @@ OUTPUT
 EXAMPLES
   [Example 1: describe the example, input and outputs]
 
+GITHUB
+    [link of the repository]
 
 """
