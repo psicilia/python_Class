@@ -37,7 +37,7 @@ EXAMPLES
     T:  6
 
 GITHUB
-    [link of the repository]
+    https://github.com/psicilia/python_Class/blob/5a0c3ca8fe2288ce4a0eec123a106a730a2e0272/src/tarea3contenido.py
 
 """
 
