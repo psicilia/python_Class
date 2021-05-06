@@ -3,3 +3,4 @@
 results/
 .vscode/settings.json
 .vscode/launch.json
+src/__pycache__/test.cpython-39.pyc
