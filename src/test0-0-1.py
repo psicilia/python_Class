@@ -1,20 +1,41 @@
-"""my_file_name = "../docs/dna.txt"
-my_file = open(my_file_name)
-my_file_content = my_file.read()
-my_dna = my_file_content.rstrip("\n")
-dna = my_dna
-print(dna.count('A'))
-print(dna.count('C'))
-print(dna.count('G'))
-print(dna.count('T'))
+"""
+NAME 
+  [programName].py
 
-AT = (dna.count('A') + dna.count('T')) / (len(dna) )
-print("AT = ", AT)
+VERSION
+  [#.#]
 
-apes = ["Homo sapiens", "Pan troglodytes", "Gorilla gorilla"]
-monkeys = ["Papiro ursinus", "Macaca mulatta"]
-primates = apes + monkeys
-print(apes[2])
+AUTHOR
+  Pablo Sicilia Andrade  <[username]@gmail.com>
+  [Other authors]: [Modifications]
+
+
+DESCRIPTION
+  [Describe the program]
+
+CATEGORY
+  [category of the program: sequence analysis for example]
+
+USAGE
+  [programName][-options/arguments]
+
+ARGUMENTS
+  [name]  [description]
+  [name]  [description]
+  [name]  [description]
+    
+INPUT
+  [files or directories used to run the program and formats]
+    
+OUTPUT
+  [file names and formats]
+    
+EXAMPLES
+  [Example 1: describe the example, input and outputs]
+
+GITHUB
+    [link of the repository]
+
 """
 
 # Abir archivo
@@ -33,3 +54,4 @@ for line in all_lines:
   output = ('>'+ line[:5] + '\n' + line.upper().replace('-','')[9:(len(line)) - 2] + '\n')
   my_Wfile.write(output)
 my_Wfile.close()
+
