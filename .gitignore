@@ -1,8 +1,14 @@
 
 *.dat
 results/
+<<<<<<< HEAD
 .idea/misc.xml
 .idea/modules.xml
 .idea/python_Class.iml
 .idea/vcs.xml
 .idea/inspectionProfiles/profiles_settings.xml
+=======
+.vscode/settings.json
+.vscode/launch.json
+src/__pycache__/test.cpython-39.pyc
+>>>>>>> 002a6ca381c41cdf537f42a344a16cff76e631e7
