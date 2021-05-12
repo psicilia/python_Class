@@ -32,7 +32,7 @@ EXAMPLES
       ATCGTACGATCGATCGATCGCTAGACGTATCG
 
 GITHUB
-    [link of the repository]
+    https://github.com/psicilia/python_Class/blob/4291adf79a8687909b1c96f333e5257d2c480137/src/tarea4fasta.py
 
 """
 
