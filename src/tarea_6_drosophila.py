@@ -44,7 +44,7 @@ teg436   medio
 
 
 GITHUB
-    [link of the repository]
+    https://github.com/psicilia/python_Class/blob/99b9bd1810a3ac2055800201a397fd3fe04bf28e/src/tarea_6_drosophila.py
 
 """
 # Abir archivo
