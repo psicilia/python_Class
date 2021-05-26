@@ -1,0 +1,8 @@
+AT content for seq_1 = "ATCGTACGATCGATCGATCGCTAGACGTATCG"
+ is 0.5
+AT content for seq_2 = "actgatcgacgatcgatcgatcacgact"
+ is 0.5
+AT content for seq_3 = "ACTGAC-ACTGT-ACTGTA----CATGTG"
+ is 0.4482758620689655
+skipping invalid sequence Sequence contains 10 N's
+AT content for seq_5 = "AAAAAAAAAAAAAAAAAAAAAAAAAAA" is 1.0
