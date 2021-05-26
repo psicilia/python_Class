@@ -44,7 +44,7 @@ OUTPUT
 
 
 GITHUB
-    [link of the repository]
+    https://github.com/psicilia/python_Class/blob/6f1166ebc9d14b36ffa1c4a7aab627a3dd957d39/src/tarea7AT-errores.py
 
 """
 
