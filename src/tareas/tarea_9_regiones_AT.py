@@ -48,7 +48,19 @@ parser.add_argument("-i", "--input",
 parser.add_argument("-o", "--output", nargs='?', const="not output file" ,
     #archivo de salida, no necesario
     help="Direccion del archivo de salida /n al no definir el output se mostrara en terminal",
-     required=True
+     required=False
 )
 # Execute the parse_args() method
 args = parser.parse_args()
+
+import re 
+
+dna = "CGCTC TAGATGCGC ATGACTGCA TGC"
+matches = re.finditer(r"[^ATCG]", dna)
+for m in matches:
+    base = m.group()
+    pos = m.start()
+    print(base + "found at position " + str(pos))
+
+result = re.split(r"[^ATCG]", dna)
+print(result) 
