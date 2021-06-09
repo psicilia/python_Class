@@ -15,52 +15,46 @@ DESCRIPTION
 
 
 CATEGORY
+    secuence analysis
 
 USAGE
+    python tarea_9_regiones_AT.py
   
-
 ARGUMENTS
-  -arg    descripcion 
+    none
 
     
 INPUT
+    CTGCATTATATCGTACGAAATTATACGCGCG
 
 OUTPUT
+    ['ATTATAT', 'TA', 'AAATTATA']
 
 GITHUB
-
+    https://github.com/psicilia/python_Class/blob/d739f3c133d25d8b7e53b24d5b465c88d0df3404/src/tareas/tarea_9_regiones_AT.py
 
 """
-
-import argparse
-from os import error, replace
-
-# Create the parser
-parser = argparse.ArgumentParser(description="descripcion")
-# Argumentos
-parser.add_argument("-i", "--input",
-    #archivo de entrada, 
-    metavar="path/to/file",
-    help="direccion del archivo de entrada",
-    required=False
-    # cambiar en caso de ser necesario 
-)
-parser.add_argument("-o", "--output", nargs='?', const="not output file" ,
-    #archivo de salida, no necesario
-    help="Direccion del archivo de salida /n al no definir el output se mostrara en terminal",
-     required=False
-)
-# Execute the parse_args() method
-args = parser.parse_args()
-
 import re 
 
-dna = "CGCTC TAGATGCGC ATGACTGCA TGC"
-matches = re.finditer(r"[^ATCG]", dna)
-for m in matches:
-    base = m.group()
-    pos = m.start()
-    print(base + "found at position " + str(pos))
+dna = "CTGCATTATATCGTACGAAATTATACGCGCG"
+#dna = input('ingrese la cadena a analizar')
+dna = dna.upper().replace(" ", "")
+#leemos la cadena de dna, eliminamos espacios y convertimos en mayusculas 
 
-result = re.split(r"[^ATCG]", dna)
-print(result) 
+class NotATCG(Exception):
+    pass
+#definimos nuestro error 
+
+try:
+
+    if (re.search(r"[^ATCG]", dna)):
+        raise NotATCG('sequence contains invalid elements')
+    #verificamos si solo contiene ATCG
+except NotATCG:
+    errors =  re.findall(r"[^ATCG]", dna)
+    print(errors)
+    #En caso de encontrar caracteres diferentes imprimimos la lista de caracteres que no coinsiden
+else:
+    matches = re.findall(r"[AT][AT]+", dna)
+    print(matches)
+    #si la secuencia solo contiene ATCG imprimimos los segemntos que conteinen AT de 2 o mas
