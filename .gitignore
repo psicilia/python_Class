@@ -12,3 +12,6 @@ results/
 .vscode/launch.json
 src/__pycache__/test.cpython-39.pyc
 >>>>>>> 002a6ca381c41cdf537f42a344a16cff76e631e7
+src/proyecto_final/__pycache__/sequence_Info.cpython-39.pyc
+src/proyecto_final/pkg/__pycache__/sequence_Info_mod1.cpython-39.pyc
+src/proyecto_final/pkg/__pycache__/sequence_Info_mod2.cpython-39.pyc
