@@ -17,6 +17,7 @@ CATEGORY
 USAGE
     from pkg.sequence_Info_mod2 import *
 GITHUB
+    https://github.com/psicilia/python_Class/blob/1aa83fdc61471c0bd1b430f518ba79ddbad1006b/src/proyecto_final/pkg/sequence_Info_mod2.py
 
 funcions:
     write_fasta(sequences, file_name):

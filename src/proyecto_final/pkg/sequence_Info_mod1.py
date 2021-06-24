@@ -17,7 +17,7 @@ CATEGORY
 USAGE
     from sequence_Info import *
 GITHUB
-
+    https://github.com/psicilia/python_Class/blob/1aa83fdc61471c0bd1b430f518ba79ddbad1006b/src/proyecto_final/pkg/sequence_Info_mod1.py
 
 funcions:
     seq_prep(seq):
