@@ -7,7 +7,7 @@ VERSION
 
 AUTHOR
   Pablo Sicilia Andrade  <[username]@gmail.com>
-  [Other authors]: [Modifications]
+  [Other authors]: [Modifications, please enter full name]
 
 
 DESCRIPTION
