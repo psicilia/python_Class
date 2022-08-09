@@ -5,7 +5,7 @@ VERSION
         0.0.4
 
 AUTHOR
-	Pablo Sicilia Andrade
+	Pablo Sicilia A
 
 DESCRIPTION
         Calculate percentage of AT on a genome sequence
