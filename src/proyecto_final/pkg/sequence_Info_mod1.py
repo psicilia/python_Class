@@ -14,6 +14,8 @@ DESCRIPTION
 CATEGORY
     DNA sequence analisis
 
+REQUIERMENTS
+    re
 USAGE
     from sequence_Info import *
 GITHUB
@@ -50,6 +52,7 @@ funcions:
 
 """
 import re
+
 class AmbiguousBaseError(Exception):
     '''invalid character found'''
     pass
@@ -131,9 +134,9 @@ def seq_stats(dna):
 def protein_base(dna):
     '''receives a DNA sequence and returns the corresponding protein'''
     try:
-        #si la cantidad de caracteres de la cadena no es multiplo de 3 no podemos hacer un analisis adecuado
         dna_script = transcript_data(dna)
-        if len(dna) % 3 != 0:
+        #si la cantidad de caracteres de la cadena no es multiplo de 3 no podemos hacer un analisis adecuado
+        if len(dna_script) % 3 != 0:
             raise MissingCharacters()
         codons = []
         protein = []

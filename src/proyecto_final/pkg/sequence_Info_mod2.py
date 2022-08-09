@@ -37,7 +37,7 @@ funcions:
 def write_fasta(sequences, file_name):
     '''receives a dictionary of sequence name (key) and sequence (key value) and write them in a destination file'''
     #abrimos el archivo
-    my_Wfile = open(file_name, "a")
+    my_Wfile = open(file_name, "W")
     #por cada elemento guardamos en lineas separadas el identificador y la secuencia
     for key in sequences.keys():
         output = ('>'+ str(key) + '\n' + str(sequences[key]) + '\n')
